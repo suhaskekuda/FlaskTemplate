@@ -20,4 +20,12 @@ This will also install the flask package.
 bin\setup.sh setup
 ```
 
+The file *config/app.setting.json* governs application parameters.
+
 You're all set to code now.
+
+Once the code is written, it is to be inspected for sanity and vulnerabilities.
+```
+bin/sanity.sh 
+```
+The reports will be captured in the **report** folder.
