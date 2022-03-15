@@ -1,0 +1,14 @@
+{
+    "Setting" : {
+        "AppURL" : ""
+    },
+    "TestCase": [
+        {
+            "TestCase": "",
+            "ExceptedResponse": "",
+            "Route": "",
+            "Params": {},
+            "StatusCode": ""
+        }
+    ]
+}

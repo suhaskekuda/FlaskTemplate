@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Royal Enfield</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <header class="main">
+        <div class="logoarea">
+            <!--img height="25" class="invertColor" src="{{ url_for('static', filename='images/logo.svg') }}"-->
+            <span class="invertColor logo">SUK Creations</span>
+        </div>
+        <div class="btns">
+            <span> </span>
+        </div>
+    </header>
+
+    {% block content %} {% endblock %}
+    
+    <!-- partial -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/params.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>

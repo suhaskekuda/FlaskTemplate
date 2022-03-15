@@ -1,0 +1,19 @@
+{
+    "App": {
+        "Mode": 0,
+        "Host": "0.0.0.0",
+        "Port": 5002
+    },
+    "Database": {
+        "Sqlite": {
+            "DBPath": ""
+        },
+        "MySQL": {
+            "Hostname": "",
+            "Port": "",
+            "Username": "",
+            "Password": "",
+            "Database": ""
+        }
+    }
+}
